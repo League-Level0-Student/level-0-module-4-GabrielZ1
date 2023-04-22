@@ -41,10 +41,22 @@ public class PiAloud {
 
 		// [CHALLENGE]
 		// *6. Get a character from the user using the getInputFromUser() method
+
+		System.out.println("What's the next digit?");
+	
+
 		// *7. Compare the users' char to the next digit of Pi
-		// *8. If they are correct, print out "correct". If they are not, print "incorrect"
+		int twentyFirstDigit = Character.getNumericValue(getInputFromUser());
+		
+		if(twentyFirstDigit==4) {
 
+			// *8. If they are correct, print out "correct". If they are not, print "incorrect"
+			System.out.println("Correct!");
+		}
+		else {
+			System.out.println("Incorrect.");
 
+		}
 
 	}
 
